@@ -4,16 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gif Generator</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <main class="background">
-        <article>
+        <article id="selector">
             <h1>Benvenut*!</h1>
             <p>Descrivi il tuo mood per generare una gif:</p>
+            <section id="buttons">
+
+            </section>
+        </article>
+        <article id="gif" class="off">
+            <i id="indietro">&#11013;</i>
+            <h2>Ecco la tua gif:</h2>
+            <img id="myGif" src="" frameborder="0"></img>
         </article>
     </main>
-
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./script.js"></script>
 </body>
 </html>
