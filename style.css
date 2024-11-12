@@ -1,0 +1,36 @@
+* { /* ! RESET */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background{
+    /* Add your background pattern here */
+    background: repeating-radial-gradient(circle, #000, #000 5px, transparent 6px);
+    background-size: 30px 30px;
+}
+
+article{
+    height: 25rem;
+    width: 20rem;
+    border-radius: 16px;
+    border: 2px solid black;
+    box-shadow: 0 0 90px black;
+    backdrop-filter: blur(2px);
+    color: white;
+    font-family: sans-serif;
+}
+
+h1{
+    margin: 12px 0;
+    color: #ff9100;
+    text-align: center;
+}
